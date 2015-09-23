@@ -1,0 +1,15 @@
+Als erstes die .cfgs anpassen.
+Dann die Map öffnen mit ResourceLister.txt bzw. via Drag-and-Drop drauf ziehen.
+Anschließend die entstandene Liste sowohl mit dem ScriptFinder als auch mit dem ShaderFinder öffnen.
+Am Ende hat man eine
+mapname.Resources.txt.scripts.txt
+die sämtliche Scripts in der Map enthält und eine
+mapname.Resources.txt.shadersparsed.txt
+die alles andere enthält.
+
+ACHTUNG:
+- Terrainshader werden nicht unterstützt!
+- Models in anderen Ordnern als models/ können auch übersehen werden, es sei denn, sie sind "model" oder "model2"!
+- Das Texturen aus Models laden liefert mitunter nicht alle Texturen!
+
+Daher: Das Ergebnis testen!

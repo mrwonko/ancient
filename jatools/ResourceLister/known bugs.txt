@@ -1,0 +1,1 @@
+might not find models outside of models/ maps/, only if they are the value belonging to a key "model" or "model2"
