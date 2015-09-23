@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WillisGameFramework" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\WillisGameFramework" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-main-d" />
+					<Add library="sfml-system-s-d" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="ws2_32" />
+					<Add library="freetype" />
+					<Add library="openal32" />
+					<Add library="sndfile" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\WillisGameFramework" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics-s" />
+					<Add library="sfml-window-s" />
+					<Add library="sfml-main" />
+					<Add library="sfml-system-s" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="ws2_32" />
+					<Add library="freetype" />
+					<Add library="openal32" />
+					<Add library="sndfile" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="..\dependencies\include" />
+		</Compiler>
+		<Linker>
+			<Add directory="..\dependencies\lib" />
+		</Linker>
+		<Unit filename="PongGame.cpp" />
+		<Unit filename="PongGame.h" />
+		<Unit filename="WGF\Configfile.cpp" />
+		<Unit filename="WGF\Configfile.h" />
+		<Unit filename="WGF\Game.cpp" />
+		<Unit filename="WGF\Game.h" />
+		<Unit filename="WGF\GameFramework.cpp" />
+		<Unit filename="WGF\GameFramework.h" />
+		<Unit filename="WGF\GxSingleton.h" />
+		<Unit filename="WGF\Helpers.cpp" />
+		<Unit filename="WGF\Helpers.h" />
+		<Unit filename="WGF\HighScore.cpp" />
+		<Unit filename="WGF\HighScore.h" />
+		<Unit filename="WGF\ImageManager.cpp" />
+		<Unit filename="WGF\ImageManager.h" />
+		<Unit filename="WGF\InputAction.cpp" />
+		<Unit filename="WGF\InputAction.h" />
+		<Unit filename="WGF\InputActionButton.cpp" />
+		<Unit filename="WGF\InputActionButton.h" />
+		<Unit filename="WGF\InputListener.cpp" />
+		<Unit filename="WGF\InputListener.h" />
+		<Unit filename="WGF\InputManager.cpp" />
+		<Unit filename="WGF\InputManager.h" />
+		<Unit filename="WGF\Logfile.cpp" />
+		<Unit filename="WGF\Logfile.h" />
+		<Unit filename="WGF\Sprite.cpp" />
+		<Unit filename="WGF\Sprite.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
