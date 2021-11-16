@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1163250396 e:\programme\codeblocks\projects\vokabeln\latein\vokabeln.cpp
+	<iostream>
+	<string>
+	<time.h>
+	<fstream>
+	<stdio.h>
+	<windows.h>
+
